@@ -6,6 +6,12 @@ body {
     font-weight: 500;
     font-style: normal;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    display: block;
 }
 
 /* https://stackoverflow.com/a/37654547/29465283 */
