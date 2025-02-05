@@ -29,6 +29,11 @@ body {
     animation: rainbowanim 10s ease infinite;
 }
 
+p h1 h2 h3 {
+    background: linear-gradient(to bottom, #ff9900, #ff5500);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 @-webkit-keyframes rainbowanim {
     0% {
         background-position: 0% 50%;
