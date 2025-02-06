@@ -23,7 +23,17 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
+    -webkit-animation: rainbowanim 10s ease infinite;
+    -moz-animation: rainbowanim 10s ease infinite;
+    animation: rainbowanim 10s ease infinite;
+}
 
+a {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400% 400%;
     -webkit-animation: rainbowanim 10s ease infinite;
     -moz-animation: rainbowanim 10s ease infinite;
     animation: rainbowanim 10s ease infinite;
@@ -65,9 +75,10 @@ body {
 
 /* end */
 
-p h1 h2 h3 {
+p h1 h2 h3 a {
     background: linear-gradient(to bottom, #ff9900, #ff5500);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
 }
 
 ul {
