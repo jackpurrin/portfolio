@@ -37,6 +37,7 @@ a {
     -webkit-animation: rainbowanim 10s ease infinite;
     -moz-animation: rainbowanim 10s ease infinite;
     animation: rainbowanim 10s ease infinite;
+    text-decoration: none;
 }
 
 @-webkit-keyframes rainbowanim {
@@ -75,10 +76,9 @@ a {
 
 /* end */
 
-p h1 h2 h3 a {
+p h1 h2 h3 {
     background: linear-gradient(to bottom, #ff9900, #ff5500);
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
 }
 
 ul {
