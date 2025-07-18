@@ -5,8 +5,14 @@ body {
     background-color: var(--bkg-clr);
     color: var(--txt-clr);
     font-family: mono;
-    text-align: center;
     font-size: 1rem;
+    overflow: none;
+}
+
+main {
+  padding: 70px 40%;
+  text-align: center;
+  width: 350px;
 }
 
 a {
