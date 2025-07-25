@@ -1,42 +1,33 @@
-@import url(config.css);
+@import url(vars.css);
 @import url(fonts.css);
 
+html,
+main,
 body {
-    background-color: var(--bkg-color);
-    color: var(--txt-color);
-    font-family: basiic;
-    max-width: var(--web-width);
-    margin: auto;
-    text-align: center;
+    background-color: var(--bkg-clr);
+    margin: 0;
+    overflow: scroll;
 }
 
-h1 {
-    font-family: Cherish !important;
-    font-size: var(--header-size);
-    line-height: 3vh;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-footer a {
-    font-size: 0.7vmax;
-}
-
-a {
-    color: var(--links-color);
-    font-size: var(--txt-size);
-    text-decoration: underline wavy 1px var(--red)  ;
+li {
+    list-style: none;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
     padding: 0;
-    line-height: 2.5rem;
-    margin: auto;
-    color: #e2e2e2;
+    margin: 0;
 }
 
-@media screen and (min-width: 370px) and (max-width: 1240px) {
-    body {
-        max-width: 100%;
-    }
+.clouds {
+    position: absolute;
+    top: -10rem;
+    width: 100%;
+    pointer-events: none;
 }
