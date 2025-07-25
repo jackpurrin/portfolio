@@ -32,9 +32,12 @@ p {
 p::selection,
 a::selection,
 h1::selection,
-h2::selection {
+h2::selection,
+ul::selection,
+li::selection {
     background-color: var(--sel-clr);
 }
+
 h1,
 h2,
 h3 {
